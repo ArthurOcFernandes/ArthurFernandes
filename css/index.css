@@ -1,0 +1,154 @@
+
+.invisible{
+    display: none;
+}
+
+@font-face{
+    font-family: 'Ubuntu';
+    src: url('../assets/fonts/OpenSans-Light.ttf') format("truetype");
+}
+
+body{
+    font-family: 'Ubuntu';
+    width: 100vw;
+    background-color: rgb(14, 14, 14);
+}
+
+header{
+    border-bottom: 1px #e48920 solid;
+}
+
+.header-container{
+    padding: .5rem 0;
+    width: 80%;
+    margin: 0 auto;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.header-info{
+    color: white;
+    font-size: 1.5em;
+    margin-right: 1rem;
+}
+
+.header-info img{
+    max-height: 3rem;
+}
+
+.header-info > * {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.personal-info{
+    flex-shrink: 3;
+}
+
+.personal-info img{
+    max-height: 3rem;
+}
+
+@media screen and (max-width: 420px){
+    .header-container{
+        justify-content: center;
+    }
+
+    .header-info{
+        margin-bottom: .6rem;
+    }
+}
+
+.flex-container-body{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.about-me{
+    max-width: 350px;
+    min-width: 350px;
+    height:400px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    color: white;
+    flex-grow: 1;
+}
+
+.title-abme{
+    margin-top: 1rem;
+    font-size: 2.5rem;
+}
+
+.logo-abme{
+    width: 30%;
+    margin: .6rem 0;
+}
+
+.text-abme{
+    margin: 0 1rem;
+    line-height: 1.3rem;
+    text-justify: inter-word;
+}
+
+.my-work{
+    background-color: rgb(22, 22, 22);
+    color: white;
+    max-width: 800px;
+    border: 1px #e48920 solid;
+    flex-grow: 3;
+    margin: 1rem;
+}
+
+.about-list{
+    border: 1px #e48920 solid;
+}
+
+.about-list li{
+    display: inline-block;
+    width: calc(50% - 2px);
+    text-align: center;
+    padding: .3rem 0;
+    font-size: 1.3rem;
+}
+
+.about-list li:first-of-type{
+    border-right: 1px #e48920 solid;
+}
+
+.about-list li:hover{
+    cursor: pointer;
+}
+
+.checked{
+    background-color: #e48920;
+    font-weight: bold;
+}
+
+.project-list{
+    min-height: 300px;
+    display:flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 2rem 1rem 2rem 1rem;
+}
+
+.project-list-item{
+    margin: .5rem 0;
+}
+
+.project-list-item a{
+    text-decoration: none;
+    color: white;
+}
+
+.project-list-item h2{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: .3rem;
+}
+
+
