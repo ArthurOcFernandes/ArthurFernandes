@@ -113,11 +113,10 @@ header{
     text-align: center;
     padding: .3rem 0;
     font-size: 1.3rem;
+    border: 1px #e48920 solid;
 }
 
-.about-list li:first-of-type{
-    border-right: 1px #e48920 solid;
-}
+
 
 .about-list li:hover{
     cursor: pointer;
@@ -152,4 +151,27 @@ header{
     margin-bottom: .3rem;
 }
 
+.tech-list{
+    margin: .5rem;
+}
 
+.tech-list td{
+    vertical-align: top;
+    padding: .5rem 0;
+}
+
+.tech-list-item img {
+    vertical-align: middle;
+    height: 3rem;
+}
+
+
+
+i{
+    font-style: italic;
+}
+
+
+#htmlcss td{
+    vertical-align: middle;
+}
