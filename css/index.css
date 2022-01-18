@@ -175,3 +175,20 @@ i{
 #htmlcss td{
     vertical-align: middle;
 }
+
+#extlink{
+    height: 14px;
+    vertical-align: top;
+}
+
+#alura p{
+    text-align: center;
+    font-size: .9rem;
+}
+
+#alura a{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: bold;
+    color: white    ;
+}
