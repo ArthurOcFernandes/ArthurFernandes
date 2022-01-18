@@ -176,10 +176,6 @@ i{
     vertical-align: middle;
 }
 
-#extlink{
-    height: 14px;
-    vertical-align: top;
-}
 
 #alura p{
     text-align: center;
@@ -191,4 +187,9 @@ i{
     font-style: normal;
     font-weight: bold;
     color: white    ;
+}
+
+#extlink{
+    height: 14px;
+    vertical-align: top;
 }
