@@ -105,12 +105,8 @@ header{
 }
 
 
-@media screen and (min-width: 1400px ){
-    
-    .flex-container-body{
-        margin-top: 7rem;
-    }
-    
+@media screen and (min-width: 1400px){
+ 
     .my-work{
         max-width: 900px;
     }
@@ -119,6 +115,13 @@ header{
         max-width: 400px;
     }
 
+}
+
+@media screen and (min-width: 1400px) and (min-height: 800px){
+    
+    .flex-container-body{
+        margin-top: 7rem;
+    }
 }
 
 .about-list{
