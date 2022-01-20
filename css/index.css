@@ -104,20 +104,31 @@ header{
     margin: 1rem;
 }
 
+
+@media screen and (min-width: 1400px ){
+    .my-work{
+        max-width: 900px;
+    }
+
+    .about-me{
+        max-width: 400px;
+    }
+
+}
+
 .about-list{
     border: 1px #e48920 solid;
+    display: flex;
+    flex-flow: row nowrap;
 }
 
 .about-list li{
-    display: inline-block;
-    width: calc(50% - 2px);
+    width: calc(50%);
     text-align: center;
     padding: .3rem 0;
     font-size: 1.3rem;
-    border: 1px #e48920 solid;
+    border: .5px #e48920 solid;
 }
-
-
 
 .about-list li:hover{
     cursor: pointer;
